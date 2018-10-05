@@ -7,7 +7,7 @@ The source server query protocol is doucmented [here][1].
 # Build
 
 ```
-git clone https://github.com/Giggybyte/source-server-query-2
+git clone https://github.com/et-nik/source-server-query-2
 cd source-server-query-2
 make
 ```
@@ -19,17 +19,17 @@ This will compile `ssq.c` and place the binary `ssq` in the folder.
 ./ssq server port
 ```
 
-# Example
+# Examples
 
 ```
-[dws@refrigerator source-server-query]$ ./ssq 216.52.148.47 27015
+[nik@source-server-query]$ ./ssq hldm.org 27018
 Given parameters:
-     Host: 216.52.148.47
-     Port: 27015
-[GFLClan.com]Zombie Escape 24/7 | Rank | Recruiting | NoBlock |
-ze_ShroomForest3_p
-csgo
-Counter-Strike: Global Offensive
+     Host: hldm.org
+     Port: 27018
+GunGame 2.1 - HLDM.ORG
+the_beach
+valve
+Half-Life
 ```
 
 # To do
